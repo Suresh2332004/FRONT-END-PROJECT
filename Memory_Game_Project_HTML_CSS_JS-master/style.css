@@ -1,0 +1,66 @@
+
+.head{
+    margin: 200px auto;
+    height: 120px;
+    width: 300px;
+    border-radius: 20px;
+}
+.scoretime{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.scoretime h2{
+    text-align: center;
+    color: rgb(136, 5, 114);
+}
+#start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(136, 5, 114);
+    border: 1px solid rgb(136, 5, 114);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#start i{
+    font-size: 22px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+#startgame{
+    height: 50px;
+    background-color: rgb(136, 5, 114);
+    border: none;
+    margin-left: 0;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color: rgb(136, 5, 114);
+}
+
+#gameBoard{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,130px);
+    justify-content: space-around;
+    grid-row-gap: 20px;
+}
+
+#gameBoard img{
+    border: 2px solid black;
+    margin: 20px auto;
+    width: 80px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
